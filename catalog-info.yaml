@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mabenoit-pod"
+  annotations:
+    "humanitec.com/orgId": "kubecon-paris-2024"
+    "humanitec.com/appId": "mabenoit-pod"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
